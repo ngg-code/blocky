@@ -90,6 +90,6 @@ public class BlockyGame {
     }
 
     public void rotatePiece(boolean dir) {
-        activePiece.rotate(dir);
+        if (activePiece != null) {activePiece.rotate(dir);}
     }
 }
