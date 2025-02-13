@@ -74,6 +74,7 @@ public class BlockyGame {
         trySpawnBlock();
         processGravity();
         processClearedLines();
+        processMovement();
     }
 
     public boolean[][] getWell() {
