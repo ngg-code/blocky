@@ -59,7 +59,7 @@ public class Board {
             }
         }
         for (int col = 0; col < Constants.BOARD_WIDTH; col++) {
-            well[n][col] = false;
+            well[0][col] = false;
         }
     }
     
