@@ -63,6 +63,7 @@ public class BlockyGame {
                 activePiece = null;
             }
         }
+    trySpawnBlock();
     }
 
     private void processClearedLines() {
