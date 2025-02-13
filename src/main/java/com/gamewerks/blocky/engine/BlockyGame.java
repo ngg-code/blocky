@@ -1,5 +1,7 @@
 package com.gamewerks.blocky.engine;
 
+import java.util.Random;
+
 import com.gamewerks.blocky.util.Constants;
 import com.gamewerks.blocky.util.Position;
 
@@ -12,11 +14,32 @@ public class BlockyGame {
 
     private int lockCounter;
 
+    private PieceKind[] NewPiece;
+
     public BlockyGame() {
         board = new Board();
         movement = Direction.NONE;
         lockCounter = 0;
         trySpawnBlock();
+    }
+
+    public void swap(int[] a){
+        int temporaryA = a[0];
+        a[0] = a[1];
+        a[1] = temporaryA;
+    }
+
+     public int shuffle(){
+        int[] index = {0, 1, 2, 3, 4, 5, 6};
+        Random rand = new Random();
+        int Length = index.length;
+        int[] a = new int[2];
+        int currentIndex = rand.nextInt(Length);
+        a[0] = currentIndex;
+        a[1] = index[Length - 1];
+        swap(a);
+        Length--;
+        return currentIndex;
     }
 
     private void trySpawnBlock() {
