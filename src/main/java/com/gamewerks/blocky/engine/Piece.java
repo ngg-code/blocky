@@ -7,9 +7,9 @@ import com.gamewerks.blocky.util.Loader;
 import com.gamewerks.blocky.util.Position;
 
 public class Piece {
-    
+
     private static HashMap ROTATION_DATA = null;
-    
+
     static {
         try {
             ROTATION_DATA = Loader.loadAllRotationData();
@@ -18,29 +18,29 @@ public class Piece {
             System.exit(-1);
         }
     }
-    
+
     private PieceKind kind;
     private int orientation;
     private Position pos;
-    
+
     public Piece(PieceKind kind, Position pos) {
         this.kind = kind;
         orientation = 0;
         this.pos = pos;
     }
-    
+
     public Position getPosition() {
         return pos;
     }
-    
+
     public void moveTo(Position p) {
         pos = p;
     }
-    
+
     public boolean[][] getLayout() {
         return ((boolean[][][]) ROTATION_DATA.get(kind))[orientation];
     }
-    
+
     public void rotate(boolean dir) {
         if (dir) {
             orientation = (orientation + 1) % 4;

@@ -23,14 +23,14 @@ public class BlockyGame {
         trySpawnBlock();
     }
 
-    public void swap(int[] a){
+    public void swap(int[] a) {
         int temporaryA = a[0];
         a[0] = a[1];
         a[1] = temporaryA;
     }
 
-     public int shuffle(){
-        int[] index = {0, 1, 2, 3, 4, 5, 6};
+    public int shuffle() {
+        int[] index = { 0, 1, 2, 3, 4, 5, 6 };
         Random rand = new Random();
         int Length = index.length;
         int[] a = new int[2];
@@ -86,7 +86,7 @@ public class BlockyGame {
                 activePiece = null;
             }
         }
-    trySpawnBlock();
+        trySpawnBlock();
     }
 
     private void processClearedLines() {
@@ -113,6 +113,8 @@ public class BlockyGame {
     }
 
     public void rotatePiece(boolean dir) {
-        if (activePiece != null) {activePiece.rotate(dir);}
+        if (activePiece != null) {
+            activePiece.rotate(dir);
+        }
     }
 }

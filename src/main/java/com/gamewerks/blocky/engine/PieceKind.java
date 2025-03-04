@@ -8,6 +8,6 @@ public enum PieceKind {
     S,
     T,
     Z;
-    
+
     public static final PieceKind[] ALL = { I, J, L, O, S, T, Z };
 }
