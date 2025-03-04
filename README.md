@@ -18,6 +18,22 @@ Primary developer:Nahom Gebreegziabher
 
 ~~~console
 @ngg-code ➜ /workspaces/blocky (main) $ git log
+commit 0c17f22175d7e26714f7ec8b251ee65c8e4945a7 (HEAD -> main, origin/main, origin/HEAD)
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Tue Mar 4 03:37:44 2025 +0000
+
+    Changes
+
+commit 3c05281465c095eadfc97c1506aa8c44085966f2
+Merge: a1cba20 50f7b25
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Tue Mar 4 03:03:51 2025 +0000
+
+    Merge branch 'main' of https://github.com/ngg-code/blocky
+
+commit a1cba20f8cb429baf31e8e0be905650a0b74157b
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+:
 commit b4909cedc935398ad664c937bd95f4fb9427f966 (HEAD -> main)
 Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
 Date:   Thu Feb 13 03:57:34 2025 +0000
