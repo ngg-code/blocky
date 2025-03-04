@@ -1,0 +1,77 @@
+[33mcommit 98fe590c580a54239f2e449f56905b7d15b41b8b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 05:46:57 2025 +0000
+
+    Added shuffle function
+
+[33mcommit b4909cedc935398ad664c937bd95f4fb9427f966[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:57:34 2025 +0000
+
+    Changed n to 0.
+
+[33mcommit 481ac348f15cf5f7fe38f8ae4effe8b3f1a76981[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:56:47 2025 +0000
+
+    hanged to row - 1.
+
+[33mcommit fde2f00c07cf4b3682aa5f6f46178b3d989b73d7[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:55:17 2025 +0000
+
+    Changed to row = n and decremented row.
+
+[33mcommit c13cd8e9f43d86a09eee121cbb3f4f3c94c355ad[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:54:07 2025 +0000
+
+    changed form <= to < and subtract 3 from well.length
+
+[33mcommit 1efdece4c9d341522ab6ae4d2df167b24cbb1492[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:52:29 2025 +0000
+
+    Check if activePiece is null
+
+[33mcommit ce947cc2a1ab8679b93d9d7c583a007c57c1a0ec[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:50:43 2025 +0000
+
+    Added a call to processMovement here.
+
+[33mcommit 1319a71ade4166c613e3607c5ac95b355dfb7440[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:49:57 2025 +0000
+
+    Added a call to trySpawnBlock here.
+
+[33mcommit 404869889d9036dc8ac89f46380a48b8937e51ff[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:48:32 2025 +0000
+
+    Added a break statement here.
+
+[33mcommit 2abab8b9d20b95f54b2a8acc9908f7fbd8bb503f[m
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu Feb 13 03:47:07 2025 +0000
+
+    Changed 5 to 4.
+
+[33mcommit afe5fb01903e400af8fa786f1a8c10dfa900169f[m
+Author: Peter-Michael Osera <osera@cs.grinnell.edu>
+Date:   Wed Feb 5 20:51:21 2025 -0600
+
+    Update pom.xml to handle Java versioning
+
+[33mcommit 21efa1b57d4ebede094644493aa2c7559c71883b[m
+Author: Peter-Michael Osera <osera@cs.grinnell.edu>
+Date:   Wed Feb 5 09:17:30 2025 -0600
+
+    hey is this how I use git, what is a commit?
+
+[33mcommit 567a65a7ce173cf4c0a232aad9c22ab38ca66331[m
+Author: Peter-Michael Osera <osera@cs.grinnell.edu>
+Date:   Wed Feb 5 09:13:20 2025 -0600
+
+    initial commit
