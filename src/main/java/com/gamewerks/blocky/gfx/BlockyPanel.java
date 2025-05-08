@@ -13,23 +13,23 @@ import com.gamewerks.blocky.util.Position;
 
 public class BlockyPanel extends JPanel {
     private static final int BLOCK_SIZE = 32;
-    
+
     private int width;
     private int height;
     private BlockyGame game;
-    
+
     public BlockyPanel(BlockyGame game) {
         width = Constants.BOARD_WIDTH * BLOCK_SIZE;
         height = (Constants.BOARD_HEIGHT - 2) * BLOCK_SIZE;
         this.game = game;
         setPreferredSize(new Dimension(width, height));
     }
-    
+
     public void paintComponent(Graphics g) {
         boolean[][] well = game.getWell();
         g.setColor(Color.GRAY);
         g.fillRect(0, 0, width, height);
-        
+
         g.setColor(Color.BLUE);
         Piece activePiece = game.getActivePiece();
         if (activePiece != null) {
@@ -39,12 +39,12 @@ public class BlockyPanel extends JPanel {
                 for (int col = 0; col < 4; col++) {
                     if (layout[row][col]) {
                         g.fillRect((activePos.col + col) * BLOCK_SIZE,
-                                   (activePos.row - row + 1) * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
+                                (activePos.row - row + 1) * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
                     }
                 }
             }
         }
-        
+
         g.setColor(Color.GREEN);
         for (int row = 0; row < Constants.BOARD_HEIGHT; row++) {
             for (int col = 0; col < Constants.BOARD_WIDTH; col++) {
