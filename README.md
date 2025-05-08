@@ -18,6 +18,24 @@ Primary developer:Nahom Gebreegziabher
 
 ~~~console
 @ngg-code ➜ /workspaces/blocky (main) $ git log
+commit 973c980926d6517e6abf9e1abc647754604e319b (HEAD -> main, origin/main, origin/HEAD)
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu May 8 00:44:26 2025 +0000
+
+    formatting
+
+commit deef31043b3eaaef2ee74419f2a278aca7bfb126
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu May 8 00:44:12 2025 +0000
+
+    Changed well[row] to row
+
+commit 9113d2641fc5c87262c8df18c2a21cc51e967225
+Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
+Date:   Thu May 8 00:43:04 2025 +0000
+
+    Changed 1 to -1
+    
 commit 0c17f22175d7e26714f7ec8b251ee65c8e4945a7 (HEAD -> main, origin/main, origin/HEAD)
 Author: ngg-code <157342451+ngg-code@users.noreply.github.com>
 Date:   Tue Mar 4 03:37:44 2025 +0000
